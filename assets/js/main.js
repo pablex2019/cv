@@ -54,7 +54,7 @@ shadowHeader()
 const contactForm = document.getElementById('contact-form'),
       contactMessage = document.getElementById('contact-message')
 
-const sendEmail = (e) => {
+/*const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_...','','',)
     .then(()=>{
@@ -66,8 +66,8 @@ const sendEmail = (e) => {
     },()=>{
         contactMessage.textContent = 'Mensaje no enviado';
     })
-}
-contactForm.addEventListener('submit',sendEmail)
+}*/
+/*contactForm.addEventListener('submit',sendEmail)*/
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () => {
     console.log('scrollUp ejecutándose', window.scrollY);
